@@ -12,11 +12,13 @@ class List extends React.Component {
   static defaultProps = {
     children: <p>I can do all the things!!!</p>,
   }
-  
+
   render() {
     return (
       <section className={styles.component}>
-        <Hero titleText={this.props.title} />
+        <Hero 
+        titleText={this.props.title} 
+        imgUrlHreo={this.props.imageURL} />
         <div className={styles.description}>
           {this.props.children}
         </div>
