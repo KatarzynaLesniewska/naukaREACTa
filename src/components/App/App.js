@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './App.scss';
-import List from '../List.js';
+import List from '../List/List.js';
 
 //import List from '../components/List/List';
 //import List from '../components/App/App';
