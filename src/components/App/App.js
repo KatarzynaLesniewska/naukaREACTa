@@ -2,10 +2,6 @@ import React from 'react';
 import styles from './App.scss';
 import List from '../List/List.js';
 
-//import List from '../components/List/List';
-//import List from '../components/App/App';
-//import styles from '../List.scss';
-
 class App extends React.Component {
   render() {
     return (
