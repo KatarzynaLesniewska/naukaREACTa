@@ -3,12 +3,14 @@ import styles from './List.scss';
 import Hero from '../Hero/Hero.js';
 import PropTypes from 'prop-types';
 import Column from '../Column/Column.js';
+import {settings} from '../../data/dataStore';
 
 class List extends React.Component {
   static propTypes = {
     title: PropTypes.node.isRequired,
     imageURL: PropTypes.string.isRequired,
-    children: PropTypes.node,
+    description: PropTypes.node,
+    columns: PropTypes.array,
   }
 
   static defaultProps = {
