@@ -10,7 +10,8 @@ class App extends React.Component {
         <h2 className={styles.subtitle}>Hello world!</h2>
         <List 
         title={['Things to do', <sup key='1'>soon!</sup>]} 
-        imageURL="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png">
+        imageURL="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png"
+        >
         </List>
       </main>
     )

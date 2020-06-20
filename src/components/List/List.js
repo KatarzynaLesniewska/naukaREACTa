@@ -6,11 +6,13 @@ import PropTypes from 'prop-types';
 class List extends React.Component {
   static propTypes = {
     title: PropTypes.node.isRequired,
+    imageURL: PropTypes.string.isRequired,
     children: PropTypes.node,
   }
 
   static defaultProps = {
     children: <p>I can do all the things!!!</p>,
+    imageURL: <span>Img unavailable :( </span>,
   }
 
   render() {
