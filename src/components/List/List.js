@@ -26,7 +26,7 @@ class List extends React.Component {
         imgUrlHreo={this.props.imageURL} 
         />
         <div className={styles.description}>
-          {this.props.children}
+          {this.props.description}
         </div>
         <div className={styles.columns}>
           <Column title="Animals"></Column>
